@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #ffffff; /* Blanco */
+    background-color: #001f3f; /* Azul oscuro */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+section {
+    background-color: #001f3f; /* Azul oscuro */
+    padding: 20px;
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 2px solid #ff851b; /* Naranja */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #ffdc00; /* Dorado */
+}
+
+h3, p {
+    font-size: 1.2em;
+    color: #ffffff; /* Blanco */
+}
+
+a {
+    color: #ff4136; /* Rosa */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff851b; /* Naranja */
+    text-decoration: underline;
+}
+article{
+    text-align: center;
+    margin: 3%;
+    padding: 3%;
+    background-color: #001f3f; /* Azul oscuro */
+    border-radius: 2%
+}
+.mapa {
+    width: 100%;
+    max-width: 600px; /* Ancho máximo del mapa */
+    height: 300px; /* Altura del mapa */
+    margin: 20px auto;
+}
+iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 10px;
+}
